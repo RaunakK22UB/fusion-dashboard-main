@@ -1,0 +1,3 @@
+title,sourceType,lat,long,description
+"Twitter Protest Threat",OSINT,28.6139,77.2090,"OSINT scrape found public tweets organizing a rally in New Delhi."
+"Undercover Informant Tip",HUMINT,51.5072,-0.1276,"Agent X reported suspicious activity near London bridge."
