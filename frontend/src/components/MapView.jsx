@@ -63,7 +63,7 @@ const InteractiveMarker = ({ node }) => {
             <div className="w-full h-32 relative bg-dark-900 border-b border-gray-200">
                <img 
                  // Fix static path based on server
-                 src={`http://localhost:5000${node.imageUrl}`} 
+                 src={`https://fusion-dashboard-main.onrender.com${node.imageUrl}`} 
                  alt={node.title} 
                  className="w-full h-full object-cover" 
                  onError={(e) => { e.target.style.display = 'none' }}

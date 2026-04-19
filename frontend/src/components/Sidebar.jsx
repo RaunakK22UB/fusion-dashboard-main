@@ -26,7 +26,7 @@ const Sidebar = ({ onUploadSuccess, stats }) => {
 
     try {
       // In production, pass Authorization headers if needed. We use a dummy for the demo.
-      const res = await axios.post('http://localhost:5000/api/upload', formData, {
+      const res = await axios.post('https://fusion-dashboard-main.onrender.com/api/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           'x-user-role': 'admin'

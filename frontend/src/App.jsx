@@ -12,7 +12,7 @@ function App() {
   const fetchNodes = async () => {
     try {
       // In production, use standard env var or relative path
-      const res = await axios.get('http://localhost:5000/api/intelligence');
+      const res = await axios.get('https://fusion-dashboard-main.onrender.com/api/intelligence');
       const data = res.data;
       setNodes(data);
       
